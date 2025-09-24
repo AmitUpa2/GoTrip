@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo">
+        <img src="images/logo-dark.svg" alt="Logo" />
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <ul>
+          <li class="dropdown">
+            Home ▾
+            <ul class="dropdown-menu">
+              <li><a href="#">Home v1</a></li>
+              <li><a href="#">Home v2</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            Categories ▾
+            <ul class="dropdown-menu">
+              <li><a href="#">Adventure</a></li>
+              <li><a href="#">Relax</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Destinations</a></li>
+          <li class="dropdown">
+            Blog ▾
+            <ul class="dropdown-menu">
+              <li><a href="#">Blog Grid</a></li>
+              <li><a href="#">Blog Details</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            Pages ▾
+            <ul class="dropdown-menu">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            Dashboard ▾
+            <ul class="dropdown-menu">
+              <li><a href="#">User Panel</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <button class="expert-btn">Become An Expert</button>
+        <button class="login-btn">Sign In / Register</button>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+      </div>
+    </header>
+
+    <!-- Slider -->
+    <div class="slider-wrapper">
+      <div class="slider" id="slider">
+        <div class="slide">
+          <img src="./images/bg.png" alt="Slide 1" />
+          <div class="overlay"></div>
+          <div class="caption">
+            Discover amazing places at exclusive deals <br />
+            <span>Unique Houses Are Waiting</span>
+            <span>For You</span>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./images/bg.png" alt="Slide 2" />
+          <div class="overlay"></div>
+          <div class="caption">
+            Discover amazing places at exclusive deals <br />
+            <span>Unique Houses Are Waiting</span>
+            <span>For You</span>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./images/bg.png" alt="Slide 3" />
+          <div class="overlay"></div>
+          <div class="caption">
+            Discover amazing places at exclusive deals <br />
+            <span>Unique Houses Are Waiting</span>
+            <span>For You</span>
+          </div>
+        </div>
+      </div>
+      <div class="slider-nav-wrapper">
+        <div class="slider-nav1">
+          <button id="prev">&#8592;</button>
+        </div>
+        <div class="slider-nav2">
+          <button id="next">&#8594;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards Section -->
+    <section class="homes-section">
+      <h2>Homes Guests Love</h2>
+      <p>Interdum et malesuada fames ac ante ipsum</p>
+
+      <div class="card-container">
+        <div class="home-card">
+          <div class="image-wrapper">
+            <img src="images/1.png" alt="Home 1" />
+            <div class="wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="location">Westminster Borough, London</div>
+          <h3>Luxury New Apartment With Private Garden</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+
+        <div class="home-card">
+          <div class="image-wrapper">
+            <img src="images/2.png" alt="Home 2" />
+            <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+          </div>
+          <div class="location">Ciutat Vella, Barcelona</div>
+          <h3>Premium One Bedroom Luxury Living in the Heart of Mayfair</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+
+        <div class="home-card best-seller">
+          <span class="badge blue">BEST SELLER</span>
+          <div class="image-wrapper">
+            <img src="images/3.png" alt="Home 3" />
+            <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+          </div>
+          <div class="location">Manhattan, New York</div>
+          <h3>Style, Charm & Comfort in Camberwell</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+
+        <div class="home-card top-rated">
+          <span class="badge yellow">TOP RATED</span>
+          <div class="image-wrapper">
+            <img src="images/4.png" alt="Home 4" />
+            <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+          </div>
+          <div class="location">Vaticano Prati, Rome</div>
+          <h3>Marylebone - Oxford Street 1 bed apt with WiFi</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+        <div class="home-card">
+          <div class="image-wrapper">
+            <img src="images/1.png" alt="Home 1" />
+            <div class="wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="location">Westminster Borough, London</div>
+          <h3>Luxury New Apartment With Private Garden</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+        <div class="home-card top-rated">
+          <span class="badge yellow">TOP RATED</span>
+          <div class="image-wrapper">
+            <img src="images/4.png" alt="Home 4" />
+            <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+          </div>
+          <div class="location">Vaticano Prati, Rome</div>
+          <h3>Marylebone - Oxford Street 1 bed apt with WiFi</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+        <div class="home-card top-rated">
+          <span class="badge yellow">TOP RATED</span>
+          <div class="image-wrapper">
+            <img src="images/4.png" alt="Home 4" />
+            <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+          </div>
+          <div class="location">Vaticano Prati, Rome</div>
+          <h3>Marylebone - Oxford Street 1 bed apt with WiFi</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+        <div class="home-card top-rated">
+          <span class="badge yellow">TOP RATED</span>
+          <div class="image-wrapper">
+            <img src="images/4.png" alt="Home 4" />
+            <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+          </div>
+          <div class="location">Vaticano Prati, Rome</div>
+          <h3>Marylebone - Oxford Street 1 bed apt with WiFi</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+        <div class="home-card">
+          <div class="image-wrapper">
+            <img src="images/1.png" alt="Home 1" />
+            <div class="wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="location">Westminster Borough, London</div>
+          <h3>Luxury New Apartment With Private Garden</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+        <div class="home-card">
+          <div class="image-wrapper">
+            <img src="images/1.png" alt="Home 1" />
+            <div class="wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="location">Westminster Borough, London</div>
+          <h3>Luxury New Apartment With Private Garden</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div>
+        <div class="home-card">
+          <div class="image-wrapper">
+            <img src="images/1.png" alt="Home 1" />
+            <div class="wishlist">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="location">Westminster Borough, London</div>
+          <h3>Luxury New Apartment With Private Garden</h3>
+          <p>2 guests • 1 bedroom • 1 bed</p>
+          <div class="rating"><span>4.8</span> Exceptional • 3,014 reviews</div>
+          <div class="price">US$72 / per night</div>
+        </div> 
+      </div>
+    </section>
+
+    <!-- form -->
+    <section class="subscribe-section">
+      <div class="subscribe-container">
+        <div class="subscribe-image">
+          <img src="images/1 (1).png" alt="Travel" />
+        </div>
+        <div class="subscribe-content">
+          <div id="email-img">
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <h2>Your Travel Journey Starts Here</h2>
+          <p>Sign up and we’ll send the best deals to you</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your Email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <p>Toll Free Customer Care</p>
+          <p class="highlight">+(1) 123 456 7890</p>
+          <p>Need live support?</p>
+          <p class="highlight">hi@gotrip.com</p>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Blog</li>
+            <li>Press</li>
+            <li>Gift Cards</li>
+            <li>Magazine</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li>Contact</li>
+            <li>Legal Notice</li>
+            <li>Privacy Policy</li>
+            <li>Terms and Conditions</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Other Services</h4>
+          <ul>
+            <li>Car hire</li>
+            <li>Activity Finder</li>
+            <li>Tour List</li>
+            <li>Flight finder</li>
+            <li>Cruise Ticket</li>
+            <li>Holiday Rental</li>
+            <li>Travel Agents</li>
+          </ul>
+        </div>
+        <div class="footer-column mobile-column">
+          <h4>Mobile</h4>
+          <a href="#" class="store-btn apple">
+            <i class="fab fa-apple"></i> Apple Store
+          </a>
+          <a href="#" class="store-btn google">
+            <i class="fab fa-google-play"></i> Google Play
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="left">
+          <p>
+            © 2022 GoTrip LLC All rights reserved. <a href="#">Privacy</a> |
+            <a href="#">Terms</a> | <a href="#">Site Map</a>
+          </p>
+        </div>
+        <div class="right">
+          <select class="language">
+            <option>English (US)</option>
+          </select>
+          <select class="currency">
+            <option>USD</option>
+          </select>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
